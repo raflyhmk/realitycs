@@ -1,0 +1,338 @@
+body{
+  background: #161824;
+}
+
+a{
+  text-decoration: none;
+  color: #fafafa;
+}
+
+/* navbar */
+
+.navbar{
+  border-bottom: 1px solid #fafafa54;
+}
+
+.nav-link{
+  color: #fafafa !important;
+  margin-left: 20px;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.nav-link:hover{
+  color: crimson !important;
+  border-bottom: crimson 1px solid;
+}
+
+span{
+  color: #fafafa;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.btn{
+  width: 120px;
+  border-radius: 20px;
+  color: #fafafa;
+}
+
+/* header */
+.header{
+  margin-top: 100px;
+}
+
+
+.title-header{
+  font-size: 36px;
+  color: #fafafa;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.sub-header{
+  font-size: 18px;
+  color: #fafafa;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+.btn-demo{
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.image-header{
+  margin-top: -70px;
+}
+
+/* benefits */
+.benefits{
+  margin-top: 60px;
+  color: #fafafa;
+  text-transform: capitalize;
+}
+
+.title-benefits{
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.sub-benefits{
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.point-benefits{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.sub-point-benefits{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* review */
+.review{
+  color: #fafafa;
+  margin-top: 70px;
+}
+
+.image-review{
+  margin-bottom: 40px;
+}
+
+.desc-review{
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.name-review{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.job-review{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.title-review{
+  font-size: 32px;
+  color: #fafafa;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.btn-stories{
+  font-size: 20px;
+  width: 220px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+/* footer */
+footer{
+  color: #fafafa;
+  text-transform: capitalize;
+  margin-top: 50px;
+  border-top: 1px solid #fafafa;
+}
+
+.title-footer{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.sub-footer{
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+.company{
+  font-weight: 500;
+}
+
+.sub-company{
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.title-sub-footer{
+  font-size: 18px;
+}
+
+.link-footer{
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+/* login */
+.login{
+  color: #fafafa;
+  text-transform: capitalize;
+}
+
+.image-login{
+  background: #17223b36;
+  height: 660px;
+  text-align: center;
+}
+
+.form-login{
+  margin-top: 75px;
+}
+
+.title-login{
+  font-weight: 500;
+  font-size: 48px;
+  margin-left: 20px;
+}
+
+.sub-login{
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+.input-form{
+  margin-left: 20px;
+}
+
+.title-form{
+  margin: 20px 0px 20px 0px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.box-form{
+  background: #212331;
+  width: 55%;
+}
+
+i{
+  margin-left: 20px;
+}
+
+input{
+  margin-left: 30px;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  width: 275px;
+  height: 45px;
+  color: #fafafa;
+}
+
+.forgot{
+ margin: 10px 0px 0px 0px;
+  text-decoration: underline;
+}
+
+.btn-login{
+  border: none;
+  background: #16c79a;
+  margin: 20px 0px 20px 0px;
+  font-size: 22px;
+  width: 220px;
+  text-transform: capitalize;
+}
+
+.btn-login:hover{
+  background: #16c79bc7;
+}
+
+/* pricing */
+.pricing{
+  color: #fafafa;
+  text-transform: capitalize;
+}
+
+.title-pricing{
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.sub-pricing{
+  text-align: center;
+  font-weight: 300;
+}
+
+.subscribe{
+  border: 1.5px solid #272343;
+  height: 500px;
+  width: 350px;
+  box-shadow: 1px 7px 8px #272343;
+  margin: 20px 0px 70px 30px;
+}
+
+.box-subscribe{
+  margin-left: 20px;
+}
+
+.title-subscribe{
+  font-size: 42px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.price-subscribe{
+  color: #16c79a;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.period{
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.fa-check{
+  color: #16c79a;
+  margin-right: 20px;
+}
+
+.fa-times{
+  color: crimson;
+  margin-right: 20px;
+}
+
+.btn-subscribe{
+  width: 220px;
+  margin-top: 10px;
+}
+
+/* stories */
+.stories-review{
+  color: #fafafa;
+  margin-top: 40px;
+}
+
+.sub-stories{
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+/* features */
+.features{
+  margin-top: 50px;
+  color: #fafafa;
+  text-transform: capitalize;
+}
+
+.sub-features{
+  font-weight: 300;
+  font-size: 20px;
+}
