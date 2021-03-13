@@ -5,7 +5,7 @@ function Navbar(){
     return(
         <>
         <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container-fluid">
               <Link className="navbar-brand" to="/">
                 <img src="image/logo.png" alt="" width="30" height="24" />
@@ -21,9 +21,9 @@ function Navbar(){
                   <Link className="nav-link" to="/pricing">Pricing</Link>
                   <Link className="nav-link" to="/stories">stories</Link>
                 </div>
-              </div>
                 <Link to="/login"><button type="button" className="btn btn-outline-danger me-3">sign in</button></Link>
                 <Link to="register"><button type="button" className="btn btn-danger">sign up</button></Link>
+              </div>
             </div>
           </nav>
     </div>
