@@ -337,4 +337,21 @@ input{
   font-size: 20px;
 }
 
+/* 404 */
 
+.notfound{
+  color: #fafafa;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.sub-notfound{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.btn-404{
+  width: 200px;
+  margin-top: 20px;
+}
