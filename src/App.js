@@ -8,7 +8,7 @@ import Register from './pages/Register'
 import Pricing from './pages/Pricing'
 import Stories from './pages/Stories'
 import Features from './pages/Features'
-import NotFound from './pages/NotFound'
+
 
 function App() {
   function _ScrollToTop(props) {
@@ -29,7 +29,6 @@ function App() {
         <Route path='/pricing' exact component={Pricing} />
         <Route path='/stories' exact component={Stories} />
         <Route path='/features' exact component={Features} />
-        <Route component={NotFound} />
         </Switch>
       </ScrollToTop>
     </BrowserRouter>
