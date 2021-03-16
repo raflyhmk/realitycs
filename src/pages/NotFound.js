@@ -5,7 +5,7 @@ function NotFound(){
     return(
         <>
         <div className="notfound">
-            <img src="image/404.png" style={{width: 400}}/>
+            <img src="image/404.png" alt="" style={{width: 400}}/>
             <h1 className="notfound-title">Opss! there is nothing in here</h1>
             <p className="sub-notfound">
             page that you’re looking for isn’t found. <br />
